@@ -1,10 +1,10 @@
 package:
   name: distribexp
-  version: "0.0.1"
+  version: "v0.1"
 
 source:
-  git_rev: "0"
-  git_url: ""
+  git_rev: "v0.1"
+  git_url: "https://github.com/skippyelvis/distribexp.git"
 
 requirements:
   build:
@@ -19,7 +19,7 @@ test:
     - distribexp
 
 about:
-  home:
+  home: "https://github.com/skippyelvis/distribexp"
   license: BSD
   license_family: BSD
   summary: Ditributed experiment tools
