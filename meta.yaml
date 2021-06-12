@@ -1,0 +1,25 @@
+package:
+  name: distribexp
+  version: "0.0.1"
+
+source:
+  git_rev: "0"
+  git_url: ""
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - distribexp
+
+about:
+  home:
+  license: BSD
+  license_family: BSD
+  summary: Ditributed experiment tools
